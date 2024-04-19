@@ -43,7 +43,6 @@ class User {
         { $set: { cart: updatedCart } }
       );
   }
-  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
   getCart() {
     const db = getDb();
     const productsIds = this.cart.items.map((i) => {
